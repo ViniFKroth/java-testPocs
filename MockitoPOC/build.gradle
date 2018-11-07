@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.23.0'
+    
+    
+}
+
